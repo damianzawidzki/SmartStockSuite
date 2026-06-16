@@ -46,7 +46,7 @@ The picker can use the mobile application to view assigned picking tasks, scan p
 The purpose of this project was to design and develop a practical warehouse inventory system that improves stock control, order picking accuracy and traceability.
 
 ## Key Project Screens
- <img width="2531" height="1599" alt="Screenshot 2026-04-24 151149" src="https://github.com/user-attachments/assets/0ad67b70-b2e9-4ee5-ab31-525067af34d3" />
+
 
 ## Author
 
