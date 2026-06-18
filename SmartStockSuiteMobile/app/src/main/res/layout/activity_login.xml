@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#061B3A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <LinearLayout
+            android:id="@+id/logoBox"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/bg_logo_box"
+            android:gravity="center"
+            android:padding="18dp">
+
+            <ImageView
+                android:id="@+id/imgLoginLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:contentDescription="SmartStockSuite logo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SmartStockSuite Mobile"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PrimeStock Warehouse Scanner"
+            android:textColor="#D0D5DD"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_mobile_card"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee ID"
+                android:textColor="#061B3A"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etEmployeeId"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D0D5DD"
+                android:hint="Example: 3"
+                android:inputType="number"
+                android:padding="12dp"
+                android:textColor="#061B3A"
+                android:textColorHint="#98A2B3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#061B3A"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="18dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D0D5DD"
+                android:hint="Example: User123"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="#061B3A"
+                android:textColorHint="#98A2B3" />
+
+            <CheckBox
+                android:id="@+id/cbShowPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show password"
+                android:textColor="#061B3A"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="18dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#0B5FFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demo picker login"
+                android:textColor="#061B3A"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginTop="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee ID: 3\nPassword: User123"
+                android:textColor="#667085"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PrimeStock Warehouse"
+            android:textColor="#98A2B3"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="26dp" />
+
+    </LinearLayout>
+
+</ScrollView>
