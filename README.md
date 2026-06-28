@@ -20,7 +20,7 @@ The system helps manage warehouse stock, products, suppliers, purchase orders, c
 - Web dashboard
 - Mobile scanner concept
 
-## Technologies Used
+### Technologies Used
 
 - ASP.NET Core Web API
 - C#
@@ -30,6 +30,38 @@ The system helps manage warehouse stock, products, suppliers, purchase orders, c
 - Android Studio
 - Kotlin
 - GitHub
+
+#### Skills Demonstrated
+
+- ASP.NET Core Web API Development
+- REST API Design
+- C# Programming
+- Entity Framework Core
+- PostgreSQL Database Design
+- Docker Containerisation
+- Role-Based Access Control (RBAC)
+- Authentication and Authorisation
+- Warehouse Inventory Management
+- Barcode / QR Code Scanning
+- Audit Logging
+- CRUD Operations
+- Mobile Application Integration
+- Git & GitHub Version Control
+
+  ##### System Features
+
+- Inventory Management
+- Supplier Management
+- Purchase Order Management
+- Customer Order Management
+- Product Location Tracking
+- Picking Task Management
+- Stock Movement History
+- Audit Logs
+- Dashboard Analytics
+- Low Stock Monitoring
+- Barcode and QR Code Support
+- Role-Based User Permissions
 
 ## User Roles
 
@@ -60,6 +92,15 @@ The purpose of this project was to design and develop a practical warehouse inve
 
 
 <img width="307" height="680" alt="Screenshot 2026-05-21 092523" src="https://github.com/user-attachments/assets/eb8411b9-74db-42fb-a9da-654e1e03e77e" />
+
+## Future Improvements
+
+- Email Notifications
+- Advanced Analytics Dashboard
+- PDF Report Generation
+- Real-Time Notifications
+- Cloud Deployment
+- AI-Based Inventory Forecasting
 
 
 
