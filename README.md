@@ -20,7 +20,7 @@ The system helps manage warehouse stock, products, suppliers, purchase orders, c
 - Web dashboard
 - Mobile scanner concept
 
-### Technologies Used
+## Technologies Used
 
 - ASP.NET Core Web API
 - C#
@@ -31,7 +31,7 @@ The system helps manage warehouse stock, products, suppliers, purchase orders, c
 - Kotlin
 - GitHub
 
-#### Skills Demonstrated
+## Skills Demonstrated
 
 - ASP.NET Core Web API Development
 - REST API Design
@@ -48,7 +48,7 @@ The system helps manage warehouse stock, products, suppliers, purchase orders, c
 - Mobile Application Integration
 - Git & GitHub Version Control
 
-  ##### System Features
+  ## System Features
 
 - Inventory Management
 - Supplier Management
